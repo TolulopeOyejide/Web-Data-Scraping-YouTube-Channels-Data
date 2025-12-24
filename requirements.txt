@@ -1,0 +1,4 @@
+pandas
+selenium
+google-api-python-client
+openpyxl
