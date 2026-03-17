@@ -107,16 +107,16 @@ def fetch_and_save_videos(api_key, search_term, max_results=3000):
     print("Saving data to Excel file...")
     df = pd.DataFrame(all_video_data)
     # The 'index=False' prevents pandas from writing row numbers into the file
-    df.to_excel("youtube_results1.xlsx", index=False, engine="openpyxl")
-    print("Successfully saved results to youtube_results1.xlsx")
+    df.to_excel("youtube_results.xlsx", index=False, engine="openpyxl")
+    print("Successfully saved results to youtube_results.xlsx")
 
 
 if __name__ == "__main__":
     API_KEY = "AIzaSyAALjZ7qOE_pUMIKLMTIG59T2kHqUYhsIk" 
-    # API_KEY = "AIzaSyAllTySgSi2x-Etu6TzyPZNtpiEUS1Uj1w"
-    # API_KEY =  "AIzaSyCJatRJ7-hyeZP27vYo94_K_HTj-9dkuY4" 
+    #API_KEY = "AIzaSyAllTySgSi2x-Etu6TzyPZNtpiEUS1Uj1w"
+    #API_KEY =  "AIzaSyCJatRJ7-hyeZP27vYo94_K_HTj-9dkuY4" 
 
-    SEARCH_KEYWORD = "how to start a video production business"
+    SEARCH_KEYWORD = "How to add professional lower thirds and titles on mobile for free"
     VIDEOS_TO_FETCH = 1500
 
     fetch_and_save_videos(API_KEY, SEARCH_KEYWORD, VIDEOS_TO_FETCH)

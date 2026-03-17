@@ -471,7 +471,7 @@ class YouTubeChannelScraper:
 
 def main():
     USERNAMES_FILE = "youtube_usernames.txt"
-    OUTPUT_FILE = "youtube_channels_data1.csv"
+    OUTPUT_FILE = "youtube_channels_data.csv"
     CHECK_FILE = "checks.txt"  # <<< NEW FILE
 
     if not os.path.exists(USERNAMES_FILE):
