@@ -39,8 +39,8 @@ Web-Data-Scraping-YouTube-Channels-Data/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/TolulopeOyejide/Web-Data-Scraping-YouTube-Channels-Data.git
-cd Web-Data-Scraping-YouTube-Channels-Data
+git clone https://github.com/TolulopeOyejide/YouTube-Channel-Data-Scraper.git
+cd YouTube-Channel-Data-Scraper
 ```
 
 2. **Install dependencies**
@@ -99,14 +99,3 @@ The exported `.xlsx` file contains structured channel data, which may include:
 
 The YouTube Data API v3 has a **daily quota limit** of 10,000 units by default. Batch requests and efficient querying are recommended for large-scale data collection. See [YouTube API Quota documentation](https://developers.google.com/youtube/v3/getting-started#quota) for details.
 
----
-
-## License
-
-This project is open source. Feel free to use and adapt with attribution.
-
----
-
-## Author
-
-**Tolulope Oyejide** — [InsightsVessel](https://github.com/TolulopeOyejide) | Senior ML Engineer & Data Professional
